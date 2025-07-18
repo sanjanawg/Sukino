@@ -18,6 +18,9 @@ const buttonVariants = cva(
           "bg-secondary text-secondary-foreground hover:bg-secondary/80",
         ghost: "hover:bg-accent hover:text-accent-foreground",
         link: "text-primary underline-offset-4 hover:underline",
+        sukino: "bg-sukino-green text-white hover:bg-sukino-green-dark transition-all duration-300 shadow-lg hover:shadow-xl",
+        "sukino-outline": "border-2 border-sukino-green text-sukino-green bg-transparent hover:bg-sukino-green hover:text-white transition-all duration-300",
+        "sukino-soft": "bg-sukino-green-light text-sukino-forest hover:bg-sukino-mint transition-all duration-300",
       },
       size: {
         default: "h-10 px-4 py-2",
