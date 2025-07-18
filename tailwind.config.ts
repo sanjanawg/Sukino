@@ -71,6 +71,10 @@ export default {
 					ring: 'hsl(var(--sidebar-ring))'
 				}
 			},
+			fontFamily: {
+				'cursive': ['Dancing Script', 'cursive'],
+				'handwritten': ['Kalam', 'cursive'],
+			},
 			borderRadius: {
 				lg: 'var(--radius)',
 				md: 'calc(var(--radius) - 2px)',

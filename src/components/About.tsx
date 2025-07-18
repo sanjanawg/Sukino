@@ -39,7 +39,7 @@ const About = () => {
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-16">
           <div className="space-y-6">
-            <h3 className="text-3xl font-bold text-sukino-forest">Our Story</h3>
+            <h3 className="text-3xl font-bold text-sukino-forest font-cursive">Our Story</h3>
             <div className="space-y-4 text-sukino-sage">
               <p>
                 Founded in 2020, Sukino began as a simple dream: to create a space where exceptional coffee meets conscious cuisine. Our founders, inspired by Japanese aesthetics and sustainable practices, designed Sukino to be a refuge from the bustling city—a place where every detail reflects our commitment to quality and community.
@@ -56,7 +56,7 @@ const About = () => {
           <div className="relative">
             <div className="bg-gradient-to-br from-sukino-green-light to-sukino-mint p-8 rounded-2xl">
               <div className="bg-white p-6 rounded-xl shadow-lg">
-                <h4 className="text-xl font-bold text-sukino-forest mb-4">Our Mission</h4>
+                <h4 className="text-xl font-bold text-sukino-forest mb-4 font-cursive">Our Mission</h4>
                 <p className="text-sukino-sage mb-4">
                   To cultivate community through exceptional coffee, sustainable cuisine, and warm hospitality while supporting local farmers and artisans.
                 </p>
@@ -89,7 +89,7 @@ const About = () => {
 
         {/* Team Section */}
         <div className="text-center mt-16">
-          <h3 className="text-3xl font-bold text-sukino-forest mb-8">Meet Our Team</h3>
+          <h3 className="text-3xl font-bold text-sukino-forest mb-8 font-cursive">Meet Our Team</h3>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
             <div className="text-center">
               <div className="w-32 h-32 bg-gradient-to-br from-sukino-green-light to-sukino-mint rounded-full mx-auto mb-4 flex items-center justify-center">

@@ -27,31 +27,31 @@ const Navbar = () => {
           <div className="hidden md:flex items-center space-x-8">
             <button
               onClick={() => scrollToSection('home')}
-              className="text-foreground hover:text-sukino-green transition-colors duration-300"
+              className="text-foreground hover:text-sukino-green transition-colors duration-300 font-medium"
             >
               Home
             </button>
             <button
               onClick={() => scrollToSection('menu')}
-              className="text-foreground hover:text-sukino-green transition-colors duration-300"
+              className="text-foreground hover:text-sukino-green transition-colors duration-300 font-medium"
             >
               Menu
             </button>
             <button
               onClick={() => scrollToSection('reservation')}
-              className="text-foreground hover:text-sukino-green transition-colors duration-300"
+              className="text-foreground hover:text-sukino-green transition-colors duration-300 font-medium"
             >
               Reservations
             </button>
             <button
               onClick={() => scrollToSection('about')}
-              className="text-foreground hover:text-sukino-green transition-colors duration-300"
+              className="text-foreground hover:text-sukino-green transition-colors duration-300 font-medium"
             >
               About
             </button>
             <button
               onClick={() => scrollToSection('contact')}
-              className="text-foreground hover:text-sukino-green transition-colors duration-300"
+              className="text-foreground hover:text-sukino-green transition-colors duration-300 font-medium"
             >
               Contact
             </button>

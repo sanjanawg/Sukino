@@ -69,7 +69,7 @@ const Menu = () => {
                     <category.icon className="h-8 w-8 text-sukino-green" />
                   </div>
                 </div>
-                <CardTitle className="text-2xl text-sukino-forest">{category.title}</CardTitle>
+                <CardTitle className="text-2xl text-sukino-forest font-cursive">{category.title}</CardTitle>
               </CardHeader>
               <CardContent className="space-y-6">
                 {category.items.map((item, itemIndex) => (
@@ -77,7 +77,7 @@ const Menu = () => {
                     <div className="flex justify-between items-start mb-2">
                       <div className="flex-1">
                         <div className="flex items-center gap-2 mb-1">
-                          <h4 className="font-semibold text-sukino-forest">{item.name}</h4>
+                          <h4 className="font-semibold text-sukino-forest font-handwritten text-lg">{item.name}</h4>
                           {item.badge && (
                             <Badge variant={getBadgeVariant(item.badge)} className="text-xs">
                               {item.badge}
@@ -86,7 +86,7 @@ const Menu = () => {
                         </div>
                         <p className="text-sm text-sukino-sage">{item.description}</p>
                       </div>
-                      <span className="font-bold text-sukino-green ml-4">{item.price}</span>
+                      <span className="font-bold text-sukino-green ml-4 font-cursive text-lg">{item.price}</span>
                     </div>
                   </div>
                 ))}
